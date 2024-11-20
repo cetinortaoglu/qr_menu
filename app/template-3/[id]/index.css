@@ -1,0 +1,18 @@
+/* CSS */
+.gallery {
+    column-count: 2;
+    column-gap: 8px;
+  }
+  
+  @media (min-width: 768px) {
+    .gallery {
+      column-count: 3;
+    }
+  }
+  
+  .gallery img {
+    width: 100%;
+    margin-bottom: 8px;
+    break-inside: avoid; /* Bu, resimlerin sütunlar arasında bölünmesini önler */
+  }
+  
